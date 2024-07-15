@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="755.2" height="80" viewBox="0 0 755.2 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#283347"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Paid_Token" data-name="Paid Token" d="M3.564-29.9v-20H62.12l10,10V-9.959l-10,10L26.415.1v30H3.564V-25.617H26.415V-19.9l22.851-.057V-29.9Zm108.368,40-6.055,20H83.026l24.279-80h34.276l24.279,80H143.01l-6.055-20Zm12.511-41.2-6.4,21.2H130.9Zm78.033,61.2H179.626v-80h22.851Zm82.318-10.057-10,10-58.555.057v-80H274.8l10,10ZM261.944-29.9H239.093v40l22.851-.057Zm84.658,0v-20h68.553v20Zm45.7,4.286V30.041H369.452V-25.617ZM497.472,20.041l-10,10-48.558.057-10-10v-60l9.94-10h48.615l10,10ZM474.621-29.9H451.77v40l22.851-.057Zm76.32,12.457L582.646,30.1H556.939L536.259-.931l-2.171,2.457V30.1H511.237v-80h22.851v25.714L556.939-49.9H579.79ZM596.469-49.9h62.84l-.057,20H619.262v10H642.17l-.057,20H619.262v10h40.046l-.057,20h-62.84Zm99.456,20.629V30.1H673.074v-80h35.7L735.914-.874V-49.845h22.851V30.1H728.773Z" transform="translate(-3.564 49.902)" opacity="0.32" fill="url(#linear-gradient)"/>
+</svg>

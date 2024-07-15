@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="605" height="70" viewBox="0 0 605 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.942" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#283347"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_462670" data-name="Path 462670" d="M-453.25-4.375v-17.5h60.48v17.5Zm40.32,3.75v48.7h-20.16V-.625Zm30.29-21.25h55.44l-.05,17.5h-35.28v8.75h20.21l-.05,17.5h-20.16v8.75h35.33l-.05,17.5h-55.44Zm74.289,0h42.89l8.82,8.75V5.625l-20.21-.05.05-9.95h-20.16v35l20.16-.05v-10h20.21l-.05,18.75-8.82,8.75-42.84.05-8.82-8.75v-52.5ZM-206.19,4.375v-26.25h20.16v69.95h-20.16v-26.2h-20.16v26.25h-20.16v-70h20.16V4.375Zm50.4-8.2v51.95h-20.16v-70h31.5l23.94,42.9v-42.85h20.16v69.95h-26.46Zm85.68,51.95H-90.27v-70h20.16Zm18.849-70H-8.37l8.82,8.75V5.625l-20.21-.05.05-9.95H-39.87v35l20.16-.05v-10H.5L.45,39.325l-8.82,8.75-42.84.05-8.82-8.75v-52.5Zm84.823,52.5-5.342,17.5H8.06l21.42-70H59.72l21.42,70H60.98l-5.342-17.5ZM44.6-5.425l-5.645,18.55H50.3Zm46.67-16.45h20.11v52.5h40.37l-.05,17.5H91.22Z" transform="translate(453.25 21.875)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg id="vuesax_linear_messages-2" data-name="vuesax/linear/messages-2" xmlns="http://www.w3.org/2000/svg" width="27.692" height="27.692" viewBox="0 0 27.692 27.692">
+  <g id="messages-2" transform="translate(0 0)">
+    <path id="Vector" d="M16.3,17.112l.45,3.646a1.148,1.148,0,0,1-1.731,1.131l-4.835-2.873a11.517,11.517,0,0,1-1.558-.1,5.609,5.609,0,0,0,1.362-3.646A6.146,6.146,0,0,0,3.646,9.335a6.558,6.558,0,0,0-3.6,1.05A7.314,7.314,0,0,1,0,9.508C0,4.258,4.558,0,10.188,0S20.377,4.258,20.377,9.508A9.294,9.294,0,0,1,16.3,17.112Z" transform="translate(5.008 2.308)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-2" data-name="Vector" d="M12.692,5.931a5.609,5.609,0,0,1-1.362,3.646A6.443,6.443,0,0,1,6.346,11.85L3.335,13.638a.722.722,0,0,1-1.085-.7l.288-2.273A5.756,5.756,0,0,1,0,5.931,5.8,5.8,0,0,1,2.746,1.05,6.558,6.558,0,0,1,6.346,0,6.146,6.146,0,0,1,12.692,5.931Z" transform="translate(2.308 11.642)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H27.692V27.692H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

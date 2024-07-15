@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="861" height="100" viewBox="0 0 861 100">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#283347"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Hot_wheel" data-name="Hot wheel" d="M53.743,35.156H30.527v37.5H1.953v-100H30.527v37.5H53.743Zm5.358-62.5H87.675V72.585H59.1ZM187.683,60.085l-12.5,12.5-60.719.071-12.5-12.5v-75l12.43-12.5h60.791l12.5,12.5ZM159.109-2.344H130.535v50l28.574-.071Zm100.008,0V72.585H230.544V-2.344H201.97v-25h85.721v25Zm146.441,75H376.984l-21.43-100h28.574l8.215,38.429v-.071ZM395.271-.487l6.715-26.857H430.56L440.2,11.085l8.215-38.429h28.574l-21.43,100H426.988L416.273,29.8l-7.858,31.286ZM548.427,10.156v-37.5H577V72.585H548.427V35.156H519.853v37.5H491.279v-100h28.574v37.5Zm42.932-37.5h78.578l-.071,25h-50v12.5h28.645l-.071,25H619.862v12.5h50.076l-.071,25H591.288Zm92.936,0h78.578l-.071,25h-50v12.5h28.645l-.071,25H712.8v12.5h50.076l-.071,25H684.224Zm92.936,0h28.5v75h57.219l-.072,25H777.16Z" transform="translate(-1.953 27.344)" opacity="0.32" fill="url(#linear-gradient)"/>
+</svg>

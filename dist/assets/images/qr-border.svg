@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186" height="192" viewBox="0 0 186 192">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.851" y1="0.259" x2="0.5" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#283347"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.136" y1="0.231" x2="0.548" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.199" y1="0.745" x2="0.5" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.867" y1="0.784" x2="0.5" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_346204" data-name="Group 346204" transform="translate(-1534.531 -4785.597)">
+    <path id="Path_204930" data-name="Path 204930" d="M2133.713-3060.573h-1.273V-3076.6c0-7.573-5.53-13.522-13.76-14.8-.15-.022-5.883-.87-14.967-1.922l.148-1.247c9.183,1.064,14.954,1.919,15.011,1.927h0a18.121,18.121,0,0,1,10.824,5.545,15.307,15.307,0,0,1,2.974,4.818,15.771,15.771,0,0,1,1.038,5.683Z" transform="translate(-413.182 7880.171)" opacity="0.6" fill="url(#linear-gradient)"/>
+    <path id="Path_204931" data-name="Path 204931" d="M1827.1-3060.593h-1.273v-16.021a15.455,15.455,0,0,1,4.317-10.563,18.238,18.238,0,0,1,10.527-5.477c.058-.009,5.823-.875,15.007-1.939l.148,1.246c-9.162,1.062-14.906,1.924-14.962,1.933-7.847,1.194-13.765,7.556-13.765,14.8Z" transform="translate(-291.299 7880.19)" opacity="0.6" fill="url(#linear-gradient-2)"/>
+    <path id="Path_204932" data-name="Path 204932" d="M1855.682-2811.83c-9.184-1.064-14.949-1.93-15.006-1.939a18.239,18.239,0,0,1-10.528-5.478,15.458,15.458,0,0,1-4.317-10.565v-16.018h1.273v16.018c0,7.245,5.918,13.608,13.766,14.8.056.008,5.8.872,14.962,1.932Z" transform="translate(-291.299 7789.428)" opacity="0.6" fill="url(#linear-gradient-3)"/>
+    <path id="Path_204933" data-name="Path 204933" d="M2103.862-2811.83l-.147-1.248c9.1-1.049,14.832-1.9,14.967-1.916,8.23-1.283,13.76-7.235,13.76-14.81v-16.026h1.273v16.026a15.792,15.792,0,0,1-1.038,5.687,15.3,15.3,0,0,1-2.974,4.819,18.127,18.127,0,0,1-10.824,5.545h0C2118.816-2813.744,2113.045-2812.889,2103.862-2811.83Z" transform="translate(-413.183 7789.428)" opacity="0.6" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

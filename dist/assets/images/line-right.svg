@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg width="509" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient gradientUnits="objectBoundingBox" id="linear-gradient" x1="1" x2="0.23" y1="0.5" y2="0.5">
+   <stop offset="0" stop-color="#283347"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g data-name="Group 342317" id="Group_342317">
+   <path d="m-253.62,-270l509,0l0,-24l-509,0l0,24z" data-name="Line 15" fill="url(#linear-gradient)" id="Line_15" opacity="0.6" transform="translate(253.616 330)"/>
+   <path d="m-253.62,-270l509,0l0,-24l-509,0l0,24z" data-name="Line 15" fill="url(#linear-gradient)" id="Line_15-2" opacity="0.6" transform="translate(253.616 294)"/>
+  </g>
+ </g>
+</svg>

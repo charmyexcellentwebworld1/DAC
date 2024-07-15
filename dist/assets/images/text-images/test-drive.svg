@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="789" height="80" viewBox="0 0 789 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#283347"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Test_Drive" data-name="Test Drive" d="M1.563-1.875v-20h68.6v20ZM47.3,2.411V58.068H24.429V2.411ZM81.652-21.875h62.882l-.057,20H104.461v10h22.923l-.057,20H104.461v10h40.073l-.057,20H81.594Zm84.319,50-10-10v-30l9.947-10h58.652v20H178.833v10h35.729l10,10v30l-10,10H155.967v-20H201.7v-10Zm115.76-30V58.068H258.865V-1.875H236v-20h68.6v20Zm80.032,0v-20h58.595l10,10V48.068l-10,10-58.595.057V2.411h22.866V38.125l22.866-.057V-1.875Zm102.9,10,22.866-.057V-1.875H464.661Zm11.262,20H464.661v30H441.8v-80H500.39l10,10V18.068l-9.146,9.143,12,30.914H487.528Zm68.77,30H521.827v-80h22.866Zm68.6-80h22.866l-24.3,80h-34.3l-24.3-80h22.866l18.579,61.2Zm34.357,0h62.882l-.057,20H670.458v10h22.923l-.057,20H670.458v10h40.073l-.057,20H647.591Zm84.319,50-10-10v-30l9.947-10h58.652v20H744.83v10h35.729l10,10v30l-10,10H721.964v-20H767.7v-10Z" transform="translate(-1.563 21.875)" opacity="0.32" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="546" height="80" viewBox="0 0 546 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#283347"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="My_Cars" data-name="My Cars" d="M49.468,18.125l12.119-40H93.029v80H70.163V25.211L60.9,55.782Zm7.832,40H34.433l-10-32.914V58.125H1.563v-80H33L47.3,25.211Zm67.171-38.686L101.6-21.875h24.3l10,18.057,10-18.057h24.3L147.338,19.439V58.125H124.471Zm102.9-21.314v-10l9.947-10h48.649l10,10V9.554L273.048,9.5,273.1-1.875Zm22.867,4.286V38.125l22.867-.057V26.639h22.924l-.057,21.429-10,10-48.592.057-10-10V2.411ZM333.53,38.125l-6.06,20H304.6l24.3-80h34.3l24.3,80H364.629l-6.06-20Zm12.52-41.2-6.4,21.2h12.863ZM421.8,8.125l22.867-.057V-1.875H421.8Zm11.262,20H421.8v30H398.929v-80h58.6l10,10V18.068l-9.147,9.143,12.005,30.914H444.662Zm55.909,0-10-10v-30l9.947-10h58.653v20H501.829v10h35.729l10,10v30l-10,10h-58.6v-20H524.7v-10Z" transform="translate(-1.563 21.875)" opacity="0.32" fill="url(#linear-gradient)"/>
+</svg>

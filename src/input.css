@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lufga';
+    src: url('../dist/assets/fonts/Lufga-Medium.eot');
+    src: url('../dist/assets/fonts/Lufga-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../dist/assets/fonts/Lufga-Medium.woff2') format('woff2'),
+        url('../dist/assets/fonts/Lufga-Medium.woff') format('woff'),
+        url('../dist/assets/fonts/Lufga-Medium.ttf') format('truetype'),
+        url('../dist/assets/fonts/Lufga-Medium.svg#Lufga-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga';
+    src: url('../dist/assets/fonts/Lufga-Bold.eot');
+    src: url('../dist/assets/fonts/Lufga-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../dist/assets/fonts/Lufga-Bold.woff2') format('woff2'),
+        url('../dist/assets/fonts/Lufga-Bold.woff') format('woff'),
+        url('../dist/assets/fonts/Lufga-Bold.ttf') format('truetype'),
+        url('../dist/assets/fonts/Lufga-Bold.svg#Lufga-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyberfall';
+    src: url('../dist/assets/fonts/Cyberfall.eot');
+    src: url('../dist/assets/fonts/Cyberfall.eot?#iefix') format('embedded-opentype'),
+        url('../dist/assets/fonts/Cyberfall.woff2') format('woff2'),
+        url('../dist/assets/fonts/Cyberfall.woff') format('woff'),
+        url('../dist/assets/fonts/Cyberfall.ttf') format('truetype'),
+        url('../dist/assets/fonts/Cyberfall.svg#MyFontRegular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.slick-dots {
+    bottom: -13px;
+    display: flex;
+    padding-left: 120px;
+  }
+  .slick-dots li {
+    height: 4px;
+    margin: 0 8px 0px 0px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 60px;
+}
+.slick-dots li button {
+    width: 100%;
+    height: 4px;
+    padding: 0px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: rgb(41 52 72 / 10%);
+    border-radius: 60px;
+}
+.slick-dots li.slick-active + li button{
+    background: rgb(41 52 72 / 80%);
+}
+.slick-dots li.slick-active + li button + li button{
+    background: rgb(41 52 72 / 40%);
+}
+.slick-dots li.slick-active + li button + li button + li button{
+    background: rgb(41 52 72 / 10%);
+}
+.slick-dots li button:before{
+    width: 20px;
+    height: 4px;
+    border-radius: 60px;
+    font-size: 0px;
+}
+.slick-dots li.slick-active button:before { 
+    background-color: #293448;
+    opacity: 1;
+}
+.slick-dots li.slick-active,
+.slick-dots li.slick-active button:before{
+    width: 100px;
+}
+

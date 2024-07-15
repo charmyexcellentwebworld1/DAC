@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20">
+  <g id="Group_344167" data-name="Group 344167" transform="translate(-389 -995)">
+    <g id="vuesax_linear_arrow-right" data-name="vuesax/linear/arrow-right" transform="translate(93 743)">
+      <g id="arrow-right" transform="translate(300 252)">
+        <path id="Vector" d="M0,13.2,5.433,7.767a1.655,1.655,0,0,0,0-2.333L0,0" transform="translate(7.425 3.4)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Vector-2" data-name="Vector" d="M0,0H20V20H0Z" transform="translate(20 20) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+    <g id="vuesax_linear_arrow-right-2" data-name="vuesax/linear/arrow-right" transform="translate(89 746)">
+      <g id="arrow-right-2" data-name="arrow-right" transform="translate(300 252)">
+        <path id="Vector-3" data-name="Vector" d="M0,9.24l3.8-3.8A1.158,1.158,0,0,0,3.8,3.8L0,0" transform="translate(5.198 2.38)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Vector-4" data-name="Vector" d="M0,0H14V14H0Z" transform="translate(14 14) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

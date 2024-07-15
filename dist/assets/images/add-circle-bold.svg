@@ -1,0 +1,6 @@
+<svg id="add-circle" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Vector" d="M16.667,33.333A16.667,16.667,0,1,0,0,16.667,16.716,16.716,0,0,0,16.667,33.333Z" transform="translate(3.333 3.333)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0H13.333" transform="translate(13.333 20)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path id="Vector-3" data-name="Vector" d="M0,13.333V0" transform="translate(20 13.333)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path id="Vector-4" data-name="Vector" d="M0,0H40V40H0Z" fill="none" opacity="0"/>
+</svg>

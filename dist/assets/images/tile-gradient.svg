@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390.998" height="61" viewBox="0 0 390.998 61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.021" y1="1.484" x2="-0.018" y2="1.484" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#283347" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#283347"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_342330" data-name="Group 342330" transform="translate(0.5 -259.5)">
+    <path id="Union_1" data-name="Union 1" d="M375,60V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60Zm-30,0V45h15V60ZM75,60V45H90V60ZM45,60V45H60V60ZM15,60V45H30V30H45V45H30V60ZM360,45V30h15V45Zm-30,0V30h15V45Zm-30,0V30h15V45Zm-30,0V30h15V45Zm-30,0V30h15V45Zm-30,0V30h15V45Zm-30,0V30h15V45Zm-30,0V30h15V45Zm-30,0V30h15V45ZM90,45V30h15V45ZM60,45V30H75V45ZM0,45V30H15V45ZM375,30V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30Zm-30,0V15h15V30ZM75,30V15H90V30ZM45,30V15H60V30ZM15,30V15H30V0H45V15H30V30ZM360,15V0h15V15Zm-30,0V0h15V15Zm-30,0V0h15V15Zm-30,0V0h15V15Zm-30,0V0h15V15Zm-30,0V0h15V15Zm-30,0V0h15V15Zm-30,0V0h15V15Zm-30,0V0h15V15ZM90,15V0h15V15ZM60,15V0H75V15ZM0,15V0H15V15Z" transform="translate(0 260)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.14" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

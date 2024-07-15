@@ -1,0 +1,9 @@
+<svg id="vuesax_linear_search-status" data-name="vuesax/linear/search-status" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="search-status">
+    <path id="Vector" d="M0,0H10" transform="translate(23.333 8.333)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0H5" transform="translate(23.333 13.333)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector-3" data-name="Vector" d="M31.667,15.833A15.833,15.833,0,1,1,15.833,0" transform="translate(3.333 3.333)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector-4" data-name="Vector" d="M3.333,3.333,0,0" transform="translate(33.333 33.333)" fill="none" stroke="#283347" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0H40V40H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="64" viewBox="0 0 80 64">
+  <g id="Group_66740" data-name="Group 66740" transform="translate(-196 -668)">
+    <g id="Rectangle_529" data-name="Rectangle 529" transform="translate(196 668)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="80" height="64" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="63" rx="31.5" fill="none"/>
+    </g>
+    <g id="apple" transform="translate(224 685)">
+      <g id="Group_60348" data-name="Group 60348" transform="translate(11.535)">
+        <g id="Group_60347" data-name="Group 60347" transform="translate(0)">
+          <path id="Path_203311" data-name="Path 203311" d="M253.254,0a6.6,6.6,0,0,0-4.269,2.3,5.7,5.7,0,0,0-1.4,4.434A5.572,5.572,0,0,0,251.9,4.545,6.146,6.146,0,0,0,253.254,0Z" transform="translate(-247.522)" fill="#141414"/>
+        </g>
+      </g>
+      <g id="Group_60350" data-name="Group 60350" transform="translate(0 6.554)">
+        <g id="Group_60349" data-name="Group 60349">
+          <path id="Path_203312" data-name="Path 203312" d="M60.523,122.68a7.12,7.12,0,0,0-5.368-2.84c-2.52,0-3.586,1.2-5.337,1.2-1.805,0-3.177-1.2-5.356-1.2a7.292,7.292,0,0,0-5.865,3.533c-2.032,3.14-1.684,9.042,1.609,14.07,1.178,1.8,2.752,3.822,4.81,3.839,1.832.018,2.348-1.171,4.829-1.183s2.952,1.2,4.78,1.179c2.06-.016,3.719-2.257,4.9-4.056a20.152,20.152,0,0,0,1.814-3.395A6.164,6.164,0,0,1,60.523,122.68Z" transform="translate(-37.336 -119.84)" fill="#141414"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

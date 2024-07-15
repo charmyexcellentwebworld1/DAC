@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500.506" height="22.58" viewBox="0 0 500.506 22.58">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.24" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <path id="_360_Curve" data-name="360 Curve" d="M-2287.064-17739.594c-34,0-68.3-1.027-102.54-3.078-21.037-1.26-42.1-2.912-62.594-4.914-16.4-1.6-32.478-3.43-47.789-5.43-26.081-3.408-41.1-6.182-41.247-6.209l.548-2.949c.148.027,15.114,2.789,41.135,6.189,24.014,3.137,62.623,7.475,110.181,10.322,29.028,1.736,63.4,3.021,101.53,3.021,72.188,0,157.894-4.6,246.618-19.437l.495,2.957c-31.368,5.246-64.017,9.5-97.039,12.629-30.018,2.848-61.02,4.838-92.144,5.918Q-2258.263-17739.593-2287.064-17739.594Z" transform="translate(2541.234 17762.174)" fill="url(#linear-gradient)"/>
+</svg>

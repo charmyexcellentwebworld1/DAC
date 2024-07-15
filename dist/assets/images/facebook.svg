@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="64" viewBox="0 0 80 64">
+  <g id="Group_60351" data-name="Group 60351" transform="translate(-196 -666)">
+    <g id="Rectangle_529" data-name="Rectangle 529" transform="translate(196 666)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="80" height="64" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="63" rx="31.5" fill="none"/>
+    </g>
+    <g id="facebook_2_" data-name="facebook (2)" transform="translate(222 684)">
+      <path id="Path_339046" data-name="Path 339046" d="M28,14A14,14,0,0,1,16.188,27.83V18.047H19.45L20.07,14H16.188V11.374a2.023,2.023,0,0,1,2.282-2.186h1.765V5.742A21.534,21.534,0,0,0,17.1,5.469c-3.2,0-5.288,1.938-5.288,5.447V14H8.258v4.047h3.555V27.83A14,14,0,1,1,28,14Z" fill="#1877f2"/>
+      <path id="Path_339047" data-name="Path 339047" d="M162.192,112.578l.621-4.047H158.93v-2.626a2.023,2.023,0,0,1,2.282-2.186h1.765v-3.445a21.529,21.529,0,0,0-3.134-.273c-3.2,0-5.288,1.938-5.288,5.447v3.084H151v4.047h3.555v9.783a14.148,14.148,0,0,0,4.375,0v-9.783Z" transform="translate(-142.742 -94.531)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
