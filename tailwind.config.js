@@ -23,6 +23,9 @@ module.exports = {
       '5xl': '2.5rem',
     },
     extend: {
+      boxShadow: {
+        'shadow-custom': '0 -25px 0px 0 #fafafa',
+      },
       colors: {
         'custom-darkblue': 'rgb(40 51 71 / 60%)',  
         'custom-lightblue': '#283347',
