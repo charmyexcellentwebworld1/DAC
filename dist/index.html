@@ -1,98 +1,123 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../dist/css/slick.css">
-  <link rel="stylesheet" href="../dist/css/slick-theme.css">
-  <link href="../src/output.css" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="max-w-full mx-auto px-20 py-4">
-        <nav class="relative z-50 flex justify-between">
-            <div class="flex items-center w-screen">
-                <div class="flex items-center pl-7 relative w-45 flex-1">
-                    <img src="../dist/assets/images/header-left-lg.png" class="absolute left-0 right-auto object-contain h-[133px] -z-10" alt="" />
-                    <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Home</a>
-                    <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">About Us</a>
-                    <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Buy on DAC</a>
-                    <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Sell on DAC</a>
-                </div>
-                <a aria-label="Home" href="#" class="flex items-center justify-center px-2 w-10 flex-auto relative"><img src="assets/images/home-logo.png" class="h-[9.5rem] w-100 object-contain relative top-[20px]" alt="" /></a>
-                <div class="flex justify-end w-45 flex-1">
-                    <div class="flex items-center max-w-fit bg-custom-gray rounded-full">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../dist/css/slick.css">
+      <link rel="stylesheet" href="../dist/css/slick-theme.css">
+      <link href="../src/output.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="max-w-full mx-auto px-20 py-4">
+            <nav class="relative z-50 flex justify-between">
+               <div class="flex items-center w-screen">
+                  <div class="flex items-center pl-7 relative w-45 flex-1">
+                     <img src="../dist/assets/images/header-left-lg.png" class="absolute left-0 right-auto object-contain h-[133px] -z-10" alt="" />
+                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Home</a>
+                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">About Us</a>
+                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Buy on DAC</a>
+                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Sell on DAC</a>
+                  </div>
+                  <a aria-label="Home" href="#" class="flex items-center justify-center px-2 w-10 flex-auto relative"><img src="assets/images/home-logo.png" class="h-[9.5rem] w-100 object-contain relative top-[20px]" alt="" /></a>
+                  <div class="flex justify-end w-45 flex-1">
+                     <div class="flex items-center max-w-fit bg-custom-gray rounded-full">
                         <a class="inline-block rounded-full text-base font-LufgaBold font-medium px-10 py-5 text-custom-blue hover:font-bold transition ease-in-out duration-500" href="#">Sign In</a>
                         <a class="inline-block rounded-full text-base font-LufgaBold font-medium px-10 py-5 hover:text-white hover:shadow-inner hover:inset-x-1.5 hover:inset-y-14.5  bg-custom-gradient text-white active:bg-custom-gradient active:text-white transition ease-in-out duration-500" href="#">Register</a>
-                    </div>
-                    <img src="../dist/assets/images/header-right-lg.png" class="absolute right-0 top-[12px] bottom-0 left-auto mr-[-16px] object-contain h-[133px] -z-10" alt="" />
+                     </div>
+                     <img src="../dist/assets/images/header-right-lg.png" class="absolute right-0 top-[12px] bottom-0 left-auto mr-[-16px] object-contain h-[133px] -z-10" alt="" />
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <section class="inline-block w-full overflow-hidden">
+         <div class="w-full mx-auto rounded-b-3xl h-[30px] absolute left-0 right-0 bg-white z-10 max-w-[331px]">
+            <span class="absolute top-0 h-8 left-[-15px] w-4 bg-transparent rounded-tl-3xl shadow-[1_-19px_0px_0_#ffffff]"></span>
+            <span class="absolute top-0 h-8 right-[-15px] w-4 bg-transparent rounded-tr-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"></span>
+         </div>
+         <div class="video-slider inline-block w-full mx-auto px-20">
+            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+               <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
+               <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
+               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+                  <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
+                  <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+               </div>
+            </div>
+            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+               <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
+               <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
+               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+                  <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
+                  <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+               </div>
+            </div>
+            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+               <video class="h-full w-full rounded-[6.25rem] absolute object-cover " src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
+               <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
+               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+                  <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
+                  <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+               </div>
+            </div>
+            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+               <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
+               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+                  <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
+                  <p class="text-normal-text text-base font-LufgaMedium font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="py-36 overflow-hidden">
+        <div class="w-full mx-auto pl-20">
+          <div class="flex items-center justify-between">
+            <form class="w-1/3">
+                <div class="flex items-center relative bg-[url('../dist/assets/images/DAC-search-border.png')] bg-no-repeat bg-right w-full max-w-[570px] h-full min-h-[260px]">
+                  <input type="text" name="search" id="search" autocomplete="" class="pr-28 bg-transparent block flex-1 text-[#28334799] placeholder:text-[#28334799] text-2xl font-LufgaMedium font-medium focus:outline-none" placeholder="Search, what you wish to Drive">
+                  <span class="flex items-center absolute right-[70px] top-0 bottom-0"><img src="../dist/assets/images/search-icon.svg" class="w-10 h-10 object-contain" alt="" /></span>
+                  <span class="bg-gradient-to-r from-[#28334799] to-[#ffffff99] absolute left-full w-[200px] h-6 top-[100px] -z-10 ml-[-15px]"></span>
+                  <span class="bg-gradient-to-r from-[#28334799] to-[#ffffff99] absolute left-full w-[200px] h-6 top-[135px] -z-10 ml-[-18px]"></span>
                 </div>
+            </form>
+            <div class="w-1/4 flex items-center justify-center">
+              <img src="../dist/assets/images/dive-in-text.png" alt="" class="h-[60px] w-full object-contain" />
             </div>
-        </nav>
-    </div>
-  </header>
-  <section class="inline-block mb-32 w-full overflow-hidden">
-     <div class="w-full mx-auto rounded-br-[20px] rounded-bl-[20px] h-[30px] absolute left-0 right-0 bg-white z-10 max-w-[331px]">
-      <!-- <span class="absolute top-0 h-[30px] left-[calc(-25px)] w-[25px] bg-white rounded-tr-[25px] shadow-[0_-25px_0px_0_#fafafa]"></span>
-      <span class="absolute top-0 h-[30px] right-[calc(-25px)] w-[25px] bg-white rounded-tl-[25px] shadow-[0_-25px_0px_0_#fafafa]"></span> -->
-     </div>
-    <div class="video-slider inline-block w-full mx-auto px-20">
-      <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
-            <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
-            <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
-            <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
-              <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
-              <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-              <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+            <div class="w-1/2 flex flex-wrap items-center content-center justify-center rounded-l-full bg-gradient-to-r from-custom-lightblue to-[#FFFFFF00] p-1 pr-0 h-full max-w-[659px] ">
+               <span class="bg-gradient-to-r from-[#28334799] to-[#ffffff99] absolute left-full w-[200px] h-6 top-[100px] -z-10 ml-[-15px]"></span>
+               <span class="bg-gradient-to-r from-[#28334799] to-[#ffffff99] absolute left-full w-[200px] h-6 top-[135px] -z-10 ml-[-18px]"></span>
+               <div class="flex flex-wrap h-full w-full items-center justify-center bg-white back rounded-l-full pl-16 min-h-[230px] relative">
+                  <h5 class="block text-4xl text-custom-lightblue font-Cyberfall uppercase px-4 bg-white absolute -top-7 left-24 w-fit">Explore by brands</h5>
+               <div class="flex items-center gap-5 relative">
+                  <span class="w-[110px] h-[110px] rounded-full bg-[#D4D6DA] flex items-center justify-center"><img class="w-full h-14 object-contain" src="../dist/assets/images/logos/proche.png" alt="" /></span>
+                  <span class="w-[110px] h-[110px] rounded-full bg-[#D4D6DA] flex items-center justify-center"><img class="w-full h-14 object-contain" src="../dist/assets/images/logos/lamborghini.png" alt="" /></span>
+                  <span class="w-[110px] h-[110px] rounded-full bg-[#D4D6DA] flex items-center justify-center"><img class="w-full h-14 object-contain" src="../dist/assets/images/logos/ferrari.png" alt="" /></span>
+                  <span class="w-[110px] h-[110px] rounded-full bg-[#D4D6DA] flex items-center justify-center"><img class="w-full h-14 object-contain" src="../dist/assets/images/logos/bmw.png" alt="" /></span>
+                  <span class="w-[110px] h-[110px] rounded-full bg-[#D4D6DA] flex items-center justify-center"><img class="w-full h-14 object-contain" src="../dist/assets/images/logos/mercedes-benz.png" alt="" /></span>
+                  <span class="bg-gradient-to-r from-white to-[#FFFFFF00] absolute right-0 w-36 h-[152px] rotate-180"></span>
+               </div>
+                </div>
+                
             </div>
-            
-      </div>
-          <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
-            <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
-            <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
-            <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
-              <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
-              <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-              <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
-            </div>
-            
-      </div>
-      <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
-        
-        <video class="h-full w-full rounded-[6.25rem] absolute object-cover " src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
-        <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
-        <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
-          <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
-          <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-          <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+          </div>
         </div>
-        
-  </div>
-  <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
-    <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
-    <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
-      <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2">DAC's<br/> Car Collection</h1>
-      <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-      <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
-    </div>
-    
-</div>
-      
-   </div>
-
-
-  </section>
-  <script src="../dist/js/jquery-3.7.1.min.js"></script>
-  <script src="../dist/js/slick.min.js"></script>
-  <script>
-    $('.video-slider').slick({
-      dots: true,
-      arrows:false,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      adaptiveHeight: true
-    });
-  </script>
-</body>
+      </section>
+      <script src="../dist/js/jquery-3.7.1.min.js"></script>
+      <script src="../dist/js/slick.min.js"></script>
+      <script>
+         $('.video-slider').slick({
+           dots: true,
+           arrows:false,
+           infinite: true,
+           speed: 300,
+           slidesToShow: 1,
+           adaptiveHeight: true
+         });
+      </script>
+   </body>
 </html>
