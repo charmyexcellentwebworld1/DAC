@@ -13,19 +13,32 @@ module.exports = {
         lg: '984px',
         xl: '1240px',
         '2xl': '1520px',
-        // '2xl': '1760px',
+        '3xl': '1760px',
       },
     },
     fontSize: {
       sm: '1rem',
       base: '1.125rem',
-      // xl: '1.25rem',
+      xl: '1.25rem',
       // '2xl': '1.563rem',
-      // '3xl': '1.953rem',
+      '3xl': '1.5rem',//24px
       '4xl': '2rem', //32px
       '5xl': '2.5rem', //40px
     },
     extend: {
+      animation: {
+        'rotate': 'rotate 7s infinite linear',
+      },
+      keyframes: {
+        rotate: {
+          '0%': {
+            transform: 'rotate(0deg)'
+          },
+          '100%': {
+            transform: 'rotate(359deg)'
+          }
+        }
+      },
       boxShadow: {
         'shadow-custom': '0 -25px 0px 0 #fafafa',
       },
@@ -33,13 +46,16 @@ module.exports = {
         'custom-darkblue': 'rgb(40 51 71 / 60%)', 
         'blue-overlay' :'#28334763',
         'custom-lightblue': '#283347',
+        'dark-blue': '#28334766',
         'custom-blue':'#2C374A', 
         'custom-gray': '#EBEBEB',
         'normal-text': 'rgb(255 255 255 / 40%)',
+        'white-light': 'rgb(255 255 255 / 60%)',
     },
     fontFamily: {
       LufgaMedium: ['"Lufga"'],
       LufgaBold: ['"Lufga"'],
+      LufgaRegular: ['"Lufga"'],
       Cyberfall: ['"Cyberfall"'],
     },
     height: {
@@ -47,6 +63,9 @@ module.exports = {
     },
     backgroundImage: {
       'header-left-lg': "url('dist/assets/images/header-left-lg.png')",
+      'footer-bg': "url('../dist/assets/images/DAC-footer-text.svg')",
+      'qr-border': "url('../dist/assets/images/qr-border.svg')",
+      'active-bg': 'linear-gradient(180deg, #283347, #FFFFFF00)',
       'custom-gradient': 'linear-gradient(180deg, #364561 0%, #151B25 100%)',
       'homebanner-gradient':'linear-gradient(179deg, #28334700 0%, #283347 100%)',
       'video-gradient': 'linear-gradient(331deg, #283347 0%, #FFFFFF00 100%)',

@@ -1,0 +1,15 @@
+<svg id="Component_16_1" data-name="Component 16 – 1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <circle id="Ellipse_181" data-name="Ellipse 181" cx="40" cy="40" r="40" fill="#283347"/>
+  <g id="apple" transform="translate(-9.336 27)">
+    <g id="Group_60348" data-name="Group 60348" transform="translate(48.39)">
+      <g id="Group_60347" data-name="Group 60347" transform="translate(0)">
+        <path id="Path_203311" data-name="Path 203311" d="M253.015,0a6.386,6.386,0,0,0-4.091,2.138,5.183,5.183,0,0,0-1.34,4.118,5.4,5.4,0,0,0,4.129-2.036A5.586,5.586,0,0,0,253.015,0Z" transform="translate(-247.522)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_60350" data-name="Group 60350" transform="translate(37.336 6.086)">
+      <g id="Group_60349" data-name="Group 60349" transform="translate(0)">
+        <path id="Path_203312" data-name="Path 203312" d="M59.557,122.477a6.893,6.893,0,0,0-5.145-2.637c-2.415,0-3.437,1.116-5.114,1.116-1.73,0-3.044-1.113-5.133-1.113a7.029,7.029,0,0,0-5.621,3.281c-1.947,2.915-1.614,8.4,1.542,13.065,1.129,1.671,2.637,3.549,4.61,3.565,1.755.016,2.25-1.087,4.628-1.1s2.829,1.113,4.581,1.1c1.974-.015,3.564-2.1,4.694-3.767a18.528,18.528,0,0,0,1.738-3.152A5.652,5.652,0,0,1,59.557,122.477Z" transform="translate(-37.336 -119.84)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
