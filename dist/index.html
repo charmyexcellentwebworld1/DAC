@@ -10,67 +10,75 @@
    </head>
    <body>
       <header>
-         <div class="max-w-full mx-auto px-20 py-4">
+         <div class="max-w-full mx-auto xl:px-20 lg:px-5 px-5 py-4 ">
             <nav class="relative z-50 flex justify-between">
-               <div class="flex items-center w-screen">
-                  <div class="flex items-center pl-7 relative w-45 flex-1">
-                     <img src="../dist/assets/images/header-left-lg.png" class="absolute left-0 right-auto object-contain h-[133px] -z-10" alt="" />
-                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Home</a>
-                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">About Us</a>
-                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Buy on DAC</a>
-                     <a class="inline-block px-7 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Sell on DAC</a>
+               <div class="flex items-center w-screen sm:justify-between">
+                  <div class="lg:flex md:hidden items-center pl-7 relative w-45 flex-1 hidden">
+                     <img src="../dist/assets/images/header-left-lg.png" class="absolute left-0 right-auto object-contain 2xl:h-[133px] lg:h-[100px] -z-10" alt="" />
+                     <a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-3 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Home</a>
+                     <a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-3 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">About Us</a>
+                     <a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-3 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Buy on DAC</a>
+                     <a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-3 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Sell on DAC</a>
                   </div>
-                  <a aria-label="Home" href="#" class="flex items-center justify-center px-2 w-10 flex-auto relative"><img src="assets/images/home-logo.png" class="h-[9.5rem] w-100 object-contain relative top-[20px]" alt="" /></a>
-                  <div class="flex justify-end w-45 flex-1">
-                     <div class="flex items-center max-w-fit bg-custom-gray rounded-full">
-                        <a class="inline-block rounded-full text-base font-LufgaBold font-medium px-10 py-5 text-custom-blue hover:font-bold transition ease-in-out duration-500" href="#">Sign In</a>
-                        <a class="inline-block rounded-full text-base font-LufgaBold font-medium px-10 py-5 hover:text-white hover:shadow-inner hover:inset-x-1.5 hover:inset-y-14.5  bg-custom-gradient text-white active:bg-custom-gradient active:text-white transition ease-in-out duration-500" href="#">Register</a>
+                  <a aria-label="Home" href="#" class="flex items-center justify-center 2xl:px-2 xl:px-2 lg:px-2 px-0 w-auto flex-none relative">
+                     <img src="assets/images/home-logo.png" class="2xl:h-[9.5rem] xl:h-28 lg:h-24 md:h-20 sm:h-20 h-12 w-100 object-contain relative 2xl:top-[20px] xl:top-[20px] lg:top-[20px] top-0" alt="" />
+                  </a>
+                  <button data-collapse-toggle="navbar-default" type="button" class="2xl:hidden xl:hidden lg:hidden inline-flex items-center absolute right-0 l-auto p-0 w-auto h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none" aria-controls="navbar-default" aria-expanded="false">
+                     <span class="sr-only">Open main menu</span>
+                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                     </svg>
+                 </button>
+                  <div class="flex justify-end 2xl:pl-7 xl::pl-7 lg:pl-7 md:pl-7 sm:pl-5 w-45 flex-1 2xl:mr-0 xl:mr-0 lg:mr-0 md:mr-8 sm:mr-8 mr-7">
+                     <div class="flex items-center max-w-fit bg-custom-gray rounded-full mr-2">
+                        <a class="inline-block rounded-full 2xl:text-base xl:text-base lg:text-base md:text-base text-[0.75rem] font-LufgaBold font-medium 2xl:px-10 lg:px-6 2xl:py-5 lg:py-3 py-2 px-4  text-custom-blue hover:font-bold transition ease-in-out duration-500" href="#">Sign In</a>
+                        <a class="inline-block rounded-full 2xl:text-base xl:text-base lg:text-base md:text-base text-[0.75rem] font-LufgaBold font-medium 2xl:px-10 lg:px-6 2xl:py-5 lg:py-3 py-2 px-4 hover:text-white hover:shadow-inner hover:inset-x-1.5 hover:inset-y-14.5  bg-custom-gradient text-white active:bg-custom-gradient active:text-white transition ease-in-out duration-500" href="#">Register</a>
                      </div>
-                     <img src="../dist/assets/images/header-right-lg.png" class="absolute right-0 top-[12px] bottom-0 left-auto mr-[-16px] object-contain h-[133px] -z-10" alt="" />
+                     <img src="../dist/assets/images/header-right-lg.png" class="absolute right-0 2xl:top-3 xl:top-2 lg:top-0 md:top-0 -top-2 bottom-0 left-auto 2xl:-mr-2 lg:-mr-1 md:mr-8 sm:mr-8 mr-7 object-contain 2xl:h-[133px] lg:h-[100px] md:h-[83px] sm:h-[83px] h-[65px] -z-10" alt="" />
                   </div>
                </div>
             </nav>
          </div>
       </header>
       <section class="inline-block w-full overflow-hidden text-center">
-         <div class="w-full mx-auto rounded-b-3xl h-[30px] absolute left-0 right-0 bg-white z-10 max-w-[331px]">
-            <span class="absolute top-0 h-8 left-[-15px] w-4 bg-transparent rounded-tl-3xl shadow-[1_-19px_0px_0_#ffffff]"></span>
-            <span class="absolute top-0 h-8 right-[-15px] w-4 bg-transparent rounded-tr-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"></span>
+         <div class="w-full mx-auto rounded-b-3xl h-[30px] absolute left-0 right-0 bg-white z-10 2xl:max-w-[331px] xl:max-w-[220px] lg:max-w-[200px] 2xl:block xl:block lg:block hidden">
+            <span class="absolute top-0 h-16 left-[-15px] w-4 bg-transparent -scale-x-100 rounded-tl-3xl shadow-[0_-10px_0px_0px_#ffffff]"></span>
+            <span class="absolute top-0 h-16 right-[-15px] w-4 bg-transparent -scale-x-100 rounded-tr-3xl shadow-[0_-10px_0px_0px_#ffffff]"></span>
          </div>
-         <div class="video-slider inline-block w-full mx-auto px-20 pl-20">
-            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+         <div class="video-slider inline-block w-full mx-auto xl:px-20 lg:px-5 px-5">
+            <div class="rounded-3xl 2xl:h-[calc(100vh-211px)] xl:h-[calc(100vh-178px)] lg:h-[calc(100vh-178px)] md:h-[calc(100vh-150px)] h-[calc(100vh-150px)] relative overflow-hidden">
                <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
                <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
-               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+               <div class="absolute 2xl:pl-28 xl:pl-14 md:pl-8 pl-8 pr-48 left-0 bottom-[60px] w-full">
                   <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2 text-left">DAC's<br/> Car Collection</h1>
                   <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px] text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 2xl:pr-[3.75rem] pr-9" alt="" />
                </div>
             </div>
-            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+            <div class="rounded-3xl 2xl:h-[calc(100vh-211px)] xl:h-[calc(100vh-178px)] lg:h-[calc(100vh-178px)] md:h-[calc(100vh-150px)] h-[calc(100vh-150px)] relative overflow-hidden">
                <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
                <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
-               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+               <div class="absolute 2xl:pl-28 xl:pl-14 md:pl-8 pr-48 left-0 bottom-[60px] w-full">
                   <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2 text-left">DAC's<br/> Car Collection</h1>
                   <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px] text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 2xl:pr-[3.75rem] pr-9" alt="" />
                </div>
             </div>
-            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+            <div class="rounded-3xl 2xl:h-[calc(100vh-211px)] xl:h-[calc(100vh-178px)] lg:h-[calc(100vh-178px)] md:h-[calc(100vh-150px)] h-[calc(100vh-150px)] relative overflow-hidden">
                <video class="h-full w-full rounded-[6.25rem] absolute object-cover " src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
                <span class="bg-homebanner-gradient absolute left-0 right-0 top-0 bottom-0 overflow-hidden rounded-[6.25rem]"></span>
-               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+               <div class="absolute 2xl:pl-28 xl:pl-14 md:pl-8 pr-48 left-0 bottom-[60px] w-full">
                   <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2 text-left">DAC's<br/> Car Collection</h1>
                   <p class="text-normal-text text-base font-LufgaBold font-medium max-w-[569px] text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 2xl:pr-[3.75rem] pr-9" alt="" />
                </div>
             </div>
-            <div class="rounded-3xl h-[calc(100vh-211px)] relative overflow-hidden">
+            <div class="rounded-3xl 2xl:h-[calc(100vh-211px)] xl:h-[calc(100vh-178px)] lg:h-[calc(100vh-178px)] md:h-[calc(100vh-150px)] h-[calc(100vh-150px)] relative overflow-hidden">
                <video class="h-full w-full rounded-[6.25rem] absolute object-cover bg-homebanner-gradient" src="../dist/assets/videos/dac-porsche.mp4" type="video/mp4" autoplay muted loop></video>
-               <div class="absolute pl-[120px] left-0 bottom-[60px] w-full">
+               <div class="absolute 2xl:pl-28 xl:pl-14 md:pl-8 pr-48 left-0 bottom-[60px] w-full">
                   <h1 class="text-white text-5xl font-Cyberfall leading-[50px] mb-2 text-left">DAC's<br/> Car Collection</h1>
                   <p class="text-normal-text text-base font-LufgaMedium font-medium max-w-[569px] text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 pr-[60px]" alt="" />
+                  <img src="../dist/assets/images/circular-logo.svg" class="absolute right-0 bottom-0 2xl:pr-[3.75rem] pr-9" alt="" />
                </div>
             </div>
          </div>
@@ -133,10 +141,11 @@
                   <div class="h-[800px] flex justify-start rounded-tr-[211px] rounded-br-[235px] relative overflow-hidden">
                      <div class="content bg-custom-lightblue w-full max-w-[420px]  pl-20 py-20 pb-12 flex flex-wrap flex-row items-end content-end relative">
                         <img src="../dist/assets/images/1.svg" class="inline-block w-auto object-contain h-[235px] ml-[201px] absolute top-20" alt="" />
-                        <h3 class="text-4xl inline-block text-white leading-tight uppercase font-LufgaBold font-bold pr-4 mb-5">POPULAR ON
+                        <h3 class="text-4xl inline-block text-white leading-tight uppercase font-LufgaBold font-bold pr-4 mb-5">
+                           POPULAR ON
                            <svg height="40" width="100%" xmlns="">
                               <text x="0" y="30" fill="#283347" stroke="white" stroke-width="1" class="text-4xl font-LufgaBold">DAC</text>
-                            </svg>
+                           </svg>
                         </h3>
                         <p class="text-normal-text leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                      </div>
@@ -149,10 +158,11 @@
                   <div class="h-[800px] flex justify-start rounded-tr-[211px] rounded-br-[235px] relative overflow-hidden">
                      <div class="content bg-custom-lightblue w-full max-w-[420px]  pl-20 py-20 pb-12 flex flex-wrap flex-row items-end content-end relative">
                         <img src="../dist/assets/images/2.svg" class="inline-block w-auto object-contain h-[235px] ml-[201px] absolute top-20" alt="" />
-                        <h3 class="text-4xl inline-block text-white leading-tight uppercase font-LufgaBold font-bold pr-4 mb-5">POPULAR ON
+                        <h3 class="text-4xl inline-block text-white leading-tight uppercase font-LufgaBold font-bold pr-4 mb-5">
+                           POPULAR ON
                            <svg height="40" width="100%" xmlns="">
                               <text x="0" y="30" fill="#283347" stroke="white" stroke-width="1" class="text-4xl font-LufgaBold">DAC</text>
-                            </svg>
+                           </svg>
                         </h3>
                         <p class="text-normal-text leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                      </div>
@@ -165,10 +175,11 @@
                   <div class="h-[800px] flex justify-start rounded-tr-[211px] rounded-br-[235px] relative overflow-hidden">
                      <div class="content bg-custom-lightblue w-full max-w-[420px]  pl-20 py-20 pb-12 flex flex-wrap flex-row items-end content-end relative">
                         <img src="../dist/assets/images/3.svg" class="inline-block w-auto object-contain h-[235px] ml-[201px] absolute top-20" alt="" />
-                        <h3 class="text-4xl inline-block text-white leading-tight uppercase font-LufgaBold font-bold pr-4 mb-5">POPULAR ON
+                        <h3 class="text-4xl inline-block text-white leading-tight uppercase font-LufgaBold font-bold pr-4 mb-5">
+                           POPULAR ON
                            <svg height="40" width="100%" xmlns="">
                               <text x="0" y="30" fill="#283347" stroke="white" stroke-width="1" class="text-4xl font-LufgaBold">DAC</text>
-                            </svg>
+                           </svg>
                         </h3>
                         <p class="text-normal-text leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                      </div>
@@ -185,42 +196,32 @@
          <div class="w-full max-w-[1534px] mx-auto pr-20 relative z-10">
             <div class="swiper">
                <div class="swiper-wrapper items-end align-bottom">
-                  <div class="swiper-slide relative">
-                           <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden border-[3px] border-solid border-white">
-                              <img src="../dist/assets/images/slider-contents/zoom-slider-01.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
-                           </div>
-                           <div class="slide-cnt">
-                              <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">GET PRE QUALIFIED</h3>
-                              <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                           </div> 
+                  <div class="swiper-slide relative [border-image:linear-gradient(to top right, #f6b73c, #4d9f0c) 30]">
+                     <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden border-[3px] border-solid border-white">
+                        <img src="../dist/assets/images/slider-contents/zoom-slider-01.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
+                     </div>
+                     <div class="slide-cnt">
+                        <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">GET PRE QUALIFIED</h3>
+                        <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
                   </div>
                   <div class="swiper-slide relative">
-                           <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden border-[3px] border-solid border-white">
-                              <img src="../dist/assets/images/slider-contents/zoom-slider-02.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
-                           </div>
-                           <div class="slide-cnt">
-                              <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">BUY CARS ON DAC</h3>
-                              <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                           </div>
+                     <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden border-[3px] border-solid border-white">
+                        <img src="../dist/assets/images/slider-contents/zoom-slider-02.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
+                     </div>
+                     <div class="slide-cnt">
+                        <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">BUY CARS ON DAC</h3>
+                        <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
                   </div>
                   <div class="swiper-slide relative">
-                           <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden border-[3px] border-solid border-white">
-                              <img src="../dist/assets/images/slider-contents/zoom-slider-03.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
-                           </div>
-                           <div class="slide-cnt">
-                              <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">SELL CARS ON DAC</h3>
-                              <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                           </div> 
-                  </div>
-                  <div class="swiper-slide relative">
-                           <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden shadow-sm border-[3px] border-solid border-white">
-                              <img src="../dist/assets/images/slider-contents/zoom-slider-03.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
-                           </div>
-                           <div class="slide-cnt">
-                              <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">SELL CARS ON DAC</h3>
-                              <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                           </div>
-                           
+                     <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden border-[3px] border-solid border-white">
+                        <img src="../dist/assets/images/slider-contents/zoom-slider-03.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
+                     </div>
+                     <div class="slide-cnt">
+                        <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">SELL CARS ON DAC</h3>
+                        <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
                   </div>
                   <div class="swiper-slide relative">
                      <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden shadow-sm border-[3px] border-solid border-white">
@@ -230,7 +231,15 @@
                         <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">SELL CARS ON DAC</h3>
                         <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                      </div>
-                     
+                  </div>
+                  <div class="swiper-slide relative">
+                     <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden shadow-sm border-[3px] border-solid border-white">
+                        <img src="../dist/assets/images/slider-contents/zoom-slider-03.png" class="h-full w-full rounded-[32px] object-cover" alt="" />
+                     </div>
+                     <div class="slide-cnt">
+                        <h3 class="text-custom-lightblue leading-5 text-base font-Cyberfall pt-4">SELL CARS ON DAC</h3>
+                        <p class="text-dark-blue leading-5 text-sm mb-10 font-LufgaMedium font-medium pr-16 hidden">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
                   </div>
                   <div class="swiper-slide relative">
                      <div class="img w-full min-w-56 h-[140px] rounded-[32px] relative overflow-hidden shadow-sm border-[3px] border-solid border-white">
@@ -247,18 +256,19 @@
             </div>
          </div>
          <span class="h-[250px] w-full mr-auto inline-block bg-gradient-to-r from-custom-lightblue to-[#FFFFFF00] to-70% max-w-[1920px] absolute bottom-24 left-0 -z-1"></span>
-         </section>
-      <section class="relative pb-56 pt-28">
+      </section>
+      <section class="relative pb-56 pt-28 px-20">
          <div class="w-full max-w-[1534px] px-4 mx-auto relative z-10">
             <div class="bg-gradient-to-r from-custom-lightblue to-[#FFFFFF00] p-0.5 rounded-full">
                <div class="bg-white w-100 rounded-full p-4 flex items-center gap-24 relative">
                   <div class="img rounded-full relative overflow-hidden h-44 w-[18.75rem]">
                      <img src="../dist/assets/images/linkedin-sales.png" class="w-full h-full object-cover" alt="" />
                   </div>
-                  <h2 class="text-custom-lightblue text-5xl font-Cyberfall font-bold leading-[52px] uppercase text-left">Become a Merchant & 
+                  <h2 class="text-custom-lightblue text-5xl font-Cyberfall font-bold leading-[52px] uppercase text-left">
+                     Become a Merchant & 
                      <svg height="40" width="100%" xmlns="">
                         <text x="0" y="30" fill="white" stroke="#283347" stroke-width="1" class="text-5xl font-Cyberfall">Work with DAC</text>
-                      </svg>
+                     </svg>
                   </h2>
                   <button type="button" class="absolute -right-20 -bottom-5 rounded-full p-4 w-48 h-32 bg-custom-lightblue flex items-center justify-center"><img src="../dist/assets/images/arrow-diagonal-lg.png" class="w-10 h-11 object-contain" /></button>
                </div>

@@ -1,0 +1,1 @@
+before:content-[''] before:bg-white before:absolute before:inset-0 before:z-0 before:rounded-[3.75rem]

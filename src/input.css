@@ -12,16 +12,16 @@
 	@apply items-end w-56;
 }
 .swiper-slide-active{
-	@apply flex flex-nowrap -translate-y-3 max-w-[963px] gap-10 rounded-[3.75rem] p-0.5 bg-white after:content-[''] after:bg-active-bg after:rounded-[3.75rem] after:absolute after:inset-0 after:-z-10 before:content-[''] before:bg-transparent before:absolute before:inset-0 before:z-0 before:rounded-[3.75rem];
+	@apply flex flex-nowrap overflow-hidden mb-14 -translate-y-3 max-w-[963px] gap-10 rounded-[3.75rem] p-0.5 after:content-[''] after:border-solid after:border-2 after:rounded-[3.75rem] after:absolute after:inset-0 after:z-10 ;
 }
 .swiper-slide-active .img{
-    @apply h-[21rem] w-[50%] rounded-[3.75rem] border-[1rem] border-white z-20;
+    @apply h-[21rem] w-[50%] rounded-[3.6rem] border-[1rem] border-white z-20;
 }
 .swiper-slide-active .slide-cnt{
     @apply w-2/4 relative z-30;
 }
 .swiper-slide-active h3 {
-	@apply text-4xl inline-block text-custom-lightblue pt-11 pb-6;
+	@apply text-4xl inline-block text-custom-lightblue pt-12 pb-6;
 }
 .swiper-slide-active p{
 	@apply block;
@@ -30,10 +30,10 @@
 	width: auto!important;
 }
 .swiper-button-prev{
-	@apply right-16 top-2 justify-end m-0 ml-auto bg-custom-lightblue w-10 h-10 rounded-full after:content-[''] after:bg-[url('../dist/assets/images/blue-bg-arrow.svg')] after:bg-no-repeat after:bg-center after:bg-cover;
+	@apply right-16 top-2 justify-end m-0 ml-auto bg-custom-lightblue w-10 h-10 rounded-full after:content-[''] after:bg-[url('../dist/assets/images/blue-bg-arrow1.svg')] after:bg-no-repeat after:bg-center after:bg-cover after:w-full after:h-full after:inline-block;
 }
 .swiper-button-next{
-	@apply right-0 top-0 justify-end m-0 ml-auto bg-custom-lightblue w-14 h-14 rounded-full after:content-[''] after:bg-[url('../dist/assets/images/blue-bg-arrow.svg')] after:bg-no-repeat after:bg-center after:bg-cover;
+	@apply right-0 top-0 justify-end m-0 ml-auto bg-custom-lightblue w-14 h-14 rounded-full after:content-[''] after:bg-[url('../dist/assets/images/blue-bg-arrow.svg')] after:bg-no-repeat after:bg-center after:bg-cover after:w-full after:h-full after:inline-block;
 }
 
 @font-face {
@@ -91,63 +91,43 @@
 }
 
 .slick-dots {
-	bottom: -13px;
-	display: flex;
-	padding-left: 120px;
+	@apply -bottom-3 flex 2xl:pl-[7.5rem] xl:pl-[3.5rem] pl-[2rem] ;
 }
 
 .slick-dots li {
-	height: 4px;
-	margin: 0 8px 0px 0px;
-	padding: 0;
-	cursor: pointer;
-	border-radius: 60px;
+	@apply h-1 mr-2 ml-0 my-0 p-0 cursor-pointer rounded-[3.75rem];
 }
 
 .slick-dots li button {
-	width: 100%;
-	height: 4px;
-	padding: 0px;
-	cursor: pointer;
-	color: transparent;
-	border: 0;
-	outline: none;
-	background: rgb(41 52 72 / 10%);
-	border-radius: 60px;
+	@apply w-full h-1 p-0 cursor-pointer text-transparent bottom-0 outline-none rounded-[3.75rem] bg-[#2934481a];
 }
 
 .slick-dots li:nth-child(2) button {
-	background: rgb(41 52 72 / 80%);
+	@apply bg-[#293448cc];
 }
 
 .slick-dots li:nth-child(3) button {
-	background: rgb(41 52 72 / 40%);
+	@apply bg-[#29344866];
 }
 
 .slick-dots li:nth-child(4) button {
-	background: rgb(41 52 72 / 10%);
+	@apply bg-[#2934481a];
 }
 
 .slick-dots li button:before {
-	width: 20px;
-	height: 4px;
-	border-radius: 60px;
-	font-size: 0px;
+	@apply w-5 h-1 rounded-[3.75rem] text-[0rem]
 }
 
 .slick-dots li.slick-active button:before {
-	background-color: #293448;
-	opacity: 1;
+	@apply bg-[#293448] opacity-100;
 }
 
 .slick-dots li.slick-active, .slick-dots li.slick-active button:before {
-	width: 100px;
+	@apply w-[6.25rem];
 }
 
 /*****popular-slider*****/
 .popular-slider.slick-slider {
-
-	/*   margin-left: -12%; */
 	margin-right: -12%;
 }
 

@@ -65,7 +65,7 @@ module.exports = {
       'header-left-lg': "url('dist/assets/images/header-left-lg.png')",
       'footer-bg': "url('../dist/assets/images/DAC-footer-text.svg')",
       'qr-border': "url('../dist/assets/images/qr-border.svg')",
-      'active-bg': 'linear-gradient(180deg, #283347, #FFFFFF00)',
+      // 'active-bg': 'linear-gradient(180deg, #283347, #FFFFFF00) 1',
       'custom-gradient': 'linear-gradient(180deg, #364561 0%, #151B25 100%)',
       'homebanner-gradient':'linear-gradient(179deg, #28334700 0%, #283347 100%)',
       'video-gradient': 'linear-gradient(331deg, #283347 0%, #FFFFFF00 100%)',
@@ -78,13 +78,16 @@ module.exports = {
     },
   },
   plugins: [
-    plugin(function({ addUtilities }) {
-      addUtilities({
+    function({ addUtilities }) {
+      const newUtilities = {
         '.text-shadow-custom': {
           textShadow: '2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff',
         },
-      })
-    }),
+        '.border-gradient': {
+          borderImage: 'linear-gradient(180deg, #283347, #FFFFFF00) 1',
+        },
+      };
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
   ],
-}
-}
+}};
