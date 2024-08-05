@@ -14,6 +14,7 @@ module.exports = {
         xl: '1240px',
         '2xl': '1520px',
         '3xl': '1760px',
+        'max-2xl': '1760px',
       },
     },
     fontSize: {
@@ -70,11 +71,17 @@ module.exports = {
       'homebanner-gradient':'linear-gradient(179deg, #28334700 0%, #283347 100%)',
       'video-gradient': 'linear-gradient(331deg, #283347 0%, #FFFFFF00 100%)',
     },
+    backgroundPosition: {
+      '11px-50': '11px 50%',
+    },
     objectPosition: {
       'custom': '215px 0px',
     },
     textShadow: {
       'custom': '2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff',
+    },
+    inset: {
+      'custom-left': 'calc(52.5% + 50px)',
     },
   },
   plugins: [
