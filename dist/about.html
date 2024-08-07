@@ -1,0 +1,186 @@
+<!doctype html>
+<html class="h-full">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../dist/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="../dist/css/slick.css">
+      <link rel="stylesheet" href="../dist/css/slick-theme.css">
+      <link rel="stylesheet" href="../src/output.css">
+   </head>
+   <body class="flex flex-col min-h-full">
+      <header>
+         <div class="max-w-full mx-auto 2xl:px-20 xl:px-5 px-5 py-4 ">
+            <nav class="relative z-50 flex justify-between">
+               <div class="flex items-center w-screen sm:justify-between">
+                  <div class="nav-items flex items-center lg:pl-7 pl-0  absolute right-0 lg:relative lg:right-[unset] flex-1 w-45">
+                     <img src="../dist/assets/images/header-left-lg.png" class="lg:block hidden absolute left-0 right-auto object-contain 2xl:h-[133px] lg:h-[100px] -z-10" alt="" />
+                     <ul class="list-none lg:flex hidden items-center relative lg:w-45 w-full flex-1 m-0 lg:p-0 py-5 lg:mt-0 mt-7 lg:top-0 md:top-28 top-24">
+                        <li><a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-0 py-1 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Home</a></li>
+                        <li><a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-0 py-1 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">About Us</a></li>
+                        <li><a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-0 py-1 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Buy on DAC</a></li>
+                        <li><a class="inline-block 2xl:px-6 xl:px-4 lg:px-2 px-0 py-1 text-lg font-LufgaMedium text-custom-darkblue  hover:text-custom-lightblue hover:font-bold transition ease-in-out duration-500" href="#">Sell on DAC</a></li>
+                     </ul>
+                     <button class="nav-button lg:hidden block absolute right-0" data-collapse-toggle="navbar-default" type="button" class="2xl:hidden xl:hidden lg:hidden inline-flex items-center absolute right-0 l-auto p-0 w-auto h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none" aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                        </svg>
+                     </button>
+                  </div>
+                  <a aria-label="Home" href="#" class="flex items-center justify-center 2xl:px-2 xl:px-2 lg:px-2 px-0 w-auto flex-none relative">
+                  <img src="assets/images/home-logo.png" class="2xl:h-[9.5rem] xl:h-28 lg:h-24 md:h-20 sm:h-20 h-12 w-100 object-contain relative 2xl:top-[20px] xl:top-[20px] lg:top-[20px] top-0" alt="" />
+                  </a>
+                  <div class="flex justify-end md:pl-7 pl-2 w-45 flex-1 lg:mr-0 mr-7 ">
+                     <div class="flex items-center max-w-fit bg-custom-gray rounded-full mr-2">
+                        <a class="inline-block rounded-full 2xl:text-base xl:text-base lg:text-base md:text-sm  text-[0.75rem] font-LufgaBold font-medium 2xl:px-10 lg:px-6 2xl:py-5 lg:py-3 py-2 px-4  text-custom-blue hover:font-bold transition ease-in-out duration-500" href="#">Sign In</a>
+                        <a class="inline-block rounded-full 2xl:text-base xl:text-base lg:text-base md:text-sm text-[0.75rem] font-LufgaBold font-medium 2xl:px-10 lg:px-6 2xl:py-5 lg:py-3 py-2 px-4 hover:text-white hover:shadow-inner hover:inset-x-1.5 hover:inset-y-14.5  bg-custom-gradient text-white active:bg-custom-gradient active:text-white transition ease-in-out duration-500" href="#">Register</a>
+                     </div>
+                     <img src="../dist/assets/images/header-right-lg.png" class="absolute right-0 2xl:top-3 xl:top-2 lg:top-[-1px] md:top-0 sm:top-[6px] -top-[10px] bottom-0 left-auto lg:-mr-[6px] mr-7 object-contain 2xl:h-[133px] lg:h-[100px] md:h-[81px] sm:h-[69px] h-[69px] -z-10" alt="" />
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <main class="flex-auto">
+         <section class="relative py-20 lg:pb-24 lg:pt-28 pb-10 pt-16">
+            <div class="mx-auto max-w-[1566px] px-4 sm:px-6 lg:px-8">
+               <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-6 place-content-start">
+                  <div class="w-full relative lg:mb-0 mb-5">
+                     <img src="../dist/assets/images/text-images/about-text.png" alt="" class="w-full object-contain 2xl:mb-40 md:mb-20 mb-12" />
+                     <img src="../dist/assets/images/car-group.png" alt="" class="w-full 2xl:-ml-7 -ml-5" />
+                     <!-- <div class="absolute inset-0 lg:-ml-[1.4rem] ml-[0.4rem] lg:mb-[2.4rem] mb-[3.6rem] bottom-0 top-auto xl:w-[8.37rem] w-20 md:flex items-center justify-center hidden">
+                        <span class="xl:w-5 xl:h-5 w-3 h-3 inline-block rounded-full bg-white xl:border-4 border-2 border-custom-lightblue absolute"></span>
+                        <img src="../dist/assets/images/circular-logo-2.png" alt="" class="w-full h-full object-contain" />
+                     </div> -->
+                  </div>
+                  <div class="2xl:pt-32 xl:pt-12 pt-0">
+                     <h1 class="font-Cyberfall text-custom-lightblue 2xl:text-[3.75rem] md:text-5xl text-4xl text-right 2xl:leading-[4.3rem] leading-tight md:mb-9 mb-4">Seamless <br/>Buying & Selling with drive any car</h1>
+                     <p class="text-dark-blue leading-5 text-sm font-LufgaMedium font-medium text-right 2xl:mb-14 md:mb-8 mb-4 max-w-[569px] ml-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                     <button type="button" class="group bg-gradient-to-b from-[#364561] to-[#151B25] rounded-[2.5rem] md:px-10 px-7 py-4 ml-auto flex items-center md:gap-x-14 gap-x-4 text-[#ffffffcc] font-LufgaMedium font-medium text-base shadow-button-shadow">Discover<img src="../dist/assets/images/arrow-diagonal.png" class="w-5 object-contain ease-in-out duration-300 group-hover:rotate-45" alt="" /></button>
+                     <img src="../dist/assets/images/about-page-shadow.svg" class="absolute 2xl:mt-20 mt-10 right-0" alt=""/>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="relative py-20 pb-24 pt-24">
+            <div class="mx-auto max-w-[1566px] px-4 sm:px-6 lg:px-8">
+               <div class="relative overflow-hidden bg-gradient-to-r from-[#283347] to-[#FFFFFF00] md:rounded-[6.25rem] rounded-[3rem] p-1">
+                  <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-6 place-content-start bg-white md:rounded-[6.25rem] rounded-[3rem]">
+                     <div class="w-full relative 2xl:p-20 md:p-10 p-5 2xl:min-h-[750px] min-h[600px] flex flex-wrap flex-row content-between">
+                        <div class="flex flex-row flex-wrap">
+                           <h2 class="font-Cyberfall text-custom-lightblue md:text-5xl text-3xl md:leading-[3.12rem] leading-tight 2xl:mb-14 md:mb-6 mb-4 w-full">A visionary thought behind DAC</h2>
+                           <p class="text-dark-blue leading-5 text-sm font-LufgaMedium font-medium md:mb-6 mb-4 max-w-[569px] w-full">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                           <p class="text-dark-blue leading-5 text-sm font-LufgaMedium font-medium 2xl:mb-14 md:mb-10 mb-4 max-w-[569px] w-full">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        </div>
+                       <button type="button" class="group bg-gradient-to-b from-[#364561] to-[#151B25] rounded-[2.5rem] px-10 py-4 mr-auto flex items-center md:gap-x-14 gap-x-4 text-[#ffffffcc] font-LufgaMedium font-medium text-base shadow-button-shadow">Be on DAC<img src="../dist/assets/images/arrow-diagonal.png" class="w-5 object-contain ease-in-out duration-300 group-hover:rotate-45" alt="" /></button>
+                     </div>
+                     <div class="overflow-hidden md:rounded-[6.25rem] rounded-[3rem] lg:w-1/2 w-full lg:absolute relative top-0 right-0 bottom-0 lg:h-full h-[400px]">
+                        <img src="../dist/assets/images/visionary.png" class="w-full h-full object-cover" alt="" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="relative py-20 pb-20 lg:pt-36 pt-0">
+            <div class="mx-auto max-w-[1566px] px-4 sm:px-6 lg:px-8">
+               <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-6 place-content-between lg:mb-5 mb-0 align-middle">
+                  <div class="flex items-centerlg:mb-0 mb-4">
+                     <h2 class="font-Cyberfall text-custom-lightblue md:text-5xl text-3xl md:leading-[3.12rem] leading-tight w-full">Experience the<br/>Cutting edge Technology</h2>
+                  </div>
+                  <div class="lg:text-right text-left">
+                     <p class="text-dark-blue leading-5 text-sm font-LufgaMedium font-medium lg:max-w-[569px] max-w-full ml-auto w-full">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                  </div>
+               </div>
+               <div class="relative overflow-hidden bg-about-img md:rounded-[6.25rem] rounded-[3rem] p-1">
+                  <div class=" bg-white md:rounded-[6.25rem] rounded-[3rem] md:p-6 p-3 xl:h-[730px] md:h-[500px] h-[400px]">
+                     <img src="../dist/assets/images/about-tech-car.png" class="w-full h-full md:rounded-[5rem] rounded-[2rem] object-cover" alt="" />
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="relative py-20 lg:pb-72 md:pb-24 pb-20 lg:pt-36 pt-0">
+            <div class="mx-auto max-w-[1566px] px-4 sm:px-6 lg:px-8">
+               <h4 class="md:text-3xl text-sm leading-tight font-LufgaBold font-bold text-[#283347e6] text-center md:mb-6 mb-3">Insights of DAC</h4>
+               <h2 class="font-Cyberfall text-custom-lightblue md:text-5xl text-3xl md:leading-[3.12rem] leading-tight w-full text-center lg:mb-24 md:mb-8 mb-4 lg:max-w-[45%] max-w-full mx-auto">All you need to know about us</h2>
+               <div class="grid lg:grid-cols-4 grid-cols-1 lg:gap-x-6 gap-y-6 place-items-center align-middle">
+                 <div class="lg:text-right text-center">
+                  <p class="text-dark-blue leading-5 text-sm font-LufgaMedium font-medium lg:max-w-[569px] max-w-full mr-auto w-full">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                 </div>
+                 <div class="col-span-2 lg:max-w-[600px] max-w-[400px] h-auto mx-auto">
+                    <img src="../dist/assets/images/about-bottom-img.png" class="w-full h-full rounded-[5rem] object-cover" alt="" />
+                 </div>
+                 <div class="lg:text-right text-center">
+                   <p class="text-dark-blue leading-5 text-sm font-LufgaMedium font-medium lg:max-w-[569px] max-w-full ml-auto w-full">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                 </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="bg-custom-lightblue z-20 pt-20 relative before:content-[''] before:absolute before:left-0 before:right-0 before:bottom-36 before:inline-block before:bg-footer-bg before:bg-no-repeat before:bg-center before:bg-contain before:w-100 before:h-[20em]">
+         <div class="w-full max-w-[1760px] mx-auto px-4 md:pb-20 pb-14 relative z-10 flex">
+            <div class="row grid xl:grid-cols-6 gap-4 md:grid-cols-3 grid-cols-1 grid-flow-row">
+               <div class="col md:w-auto w-full md:col-auto col-span-1 md:order-1 order-2 md:border-b-0 border-b-[1px] md:pb-0 pb-4">
+                  <h6 class="text-3xl text-white font-normal font-Cyberfall md:mb-5 mb-4 md:text-left text-center">Quick Links</h6>
+                  <ul class="m-0 p-0 list-none">
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">About DAC</a></li>
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">DAC APP</a></li>
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">FAQs</a></li>
+                  </ul>
+               </div>
+               <div class="col md:w-auto w-full md:col-auto col-span-1 md:order-2 order-3 md:border-b-0 border-b-[1px] md:pb-0 pb-4">
+                  <h6 class="text-3xl text-white font-normal font-Cyberfall md:mb-5 mb-4 md:text-left text-center">Buy Cars</h6>
+                  <ul class="m-0 p-0 list-none">
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">Featured Cards</a></li>
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">Popular on DAC</a></li>
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">Pre-Owned Cars</a></li>
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">Get Prequalified</a></li>
+                  </ul>
+               </div>
+               <div class="col md:w-auto w-full md:col-auto col-span-1 md:order-3 order-4 md:border-b-0 border-b-[1px] md:pb-0 pb-4">
+                  <h6 class="text-3xl text-white font-normal font-Cyberfall md:mb-5 mb-4 md:text-left text-center">Sell On DAC</h6>
+                  <ul class="m-0 p-0 list-none">
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">List your Car</a></li>
+                     <li class="md:mb-2 mb-1 md:text-left text-center"><a href="#" class="text-white-light font-LufgaRegular text-base transition hover:text-white">Become a Merchant</a></li>
+                  </ul>
+               </div>
+               <div class="col xl:w-80 md:w-auto w-full md:col-auto col-span-1 md:order-4 order-5">
+                  <h6 class="text-3xl text-white font-normal font-Cyberfall md:mb-5 mb-4 md:text-left text-center">Contact Us</h6>
+                  <ul class="m-0 p-0 list-none">
+                     <li class="md:mb-4 mb-1 md:text-left text-center"><a href="#" class="flex md:justify-start justify-center align-baseline gap-2 text-white-light font-LufgaRegular text-base transition hover:text-white"><img src="../dist/assets/images/call-white.svg" alt="" />(608) 403-4755</a>
+                        <a href="#" class="flex md:justify-start justify-center align-baseline gap-2 text-white-light font-LufgaRegular text-base transition hover:text-white"><img src="../dist/assets/images/call-white.svg" alt="" />(608) 403-4747</a>
+                     </li>
+                     <li class="md:mb-4 mb-1 md:text-left text-center"><a href="#" class="flex md:justify-start justify-center items-start gap-2 text-white-light font-LufgaRegular text-base transition hover:text-white"><img src="../dist/assets/images/DAC-mail-icon.svg" class="relative top-1" alt="" />support@dac.com</a></li>
+                     <li class="md:mb-4 mb-1 md:text-left text-center flex md:justify-start justify-center items-start gap-2 text-white-light font-LufgaRegular text-base transition"><img src="../dist/assets/images/location.svg" class="relative top-1"  alt="" />2345 Ala Wai Blvd #2614 <br/> Honolulu, Hawaii(HI), 96815</li>
+                  </ul>
+               </div>
+               <div class="col xl:pl-20 pl-0 md:w-auto w-full md:col-span-2 col-span-1 md:order-5 order-1 md:border-b-0 border-b-[1px] md:pb-0 pb-5">
+                  <div class="img flex xl:justify-end md:justify-start justify-center md:mb-9 mb-6">
+                     <img src="../dist/assets/images/footer-logo.svg" alt=""/>
+                  </div>
+                  <p class=" text-white-light font-LufgaMedium text-base xl:mb-12 mb-8 xl:text-right md:text-left text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <ul class="m-0 p-0 list-none flex xl:justify-end md:justify-start justify-center md:gap-4 gap-3">
+                     <li><a href="#" class="bg-white flex items-center justify-center rounded-[2em] md:w-16 w-14 h-12"><img src="../dist/assets/images/instagram.svg" class="w-6 h-6 object-contain" alt="" /></a></li>
+                     <li><a href="#" class="bg-white flex items-center justify-center rounded-[2em] md:w-16 w-14 h-12"><img src="../dist/assets/images/twitter.svg" class="w-6 h-6 object-contain" alt="" /></a></li>
+                     <li><a href="#" class="bg-white flex items-center justify-center rounded-[2em] md:w-16 w-14 h-12"><img src="../dist/assets/images/facebook-app-symbol.svg" class="w-6 h-6 object-contain" alt="" /></a></li>
+                     <li><a href="#" class="bg-white flex items-center justify-center rounded-[2em] md:w-16 w-14 h-12"><img src="../dist/assets/images/youtube.svg" class="w-6 h-6 object-contain" alt="" /></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="copyright bg-white">
+            <div class="w-full max-w-[1760px] mx-auto p-4 flex md:flex-nowrap flex-wrap-reverse md:justify-between justify-center items-center gap-2">
+               <p class="font-LufgaMedium md:text-xl text-sm text-custom-lightblue font-medium md:text-left text-center md:w-auto w-full">© DAC 2023. All rights reserved.</p>
+               <ul class="flex md:gap-8 gap-2 items-center md:w-auto w-full md:justify-end justify-center">
+                  <li><a href="#" class="text-custom-darkblue md:text-base text-sm font-LufgaRegular hover:text-custom-lightblue">Terms & Condition</a></li>
+                  <li><a href="#" class="text-custom-darkblue md:text-base text-sm font-LufgaRegular hover:text-custom-lightblue">Privacy Policy</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <script src="../dist/js/jquery-3.7.1.min.js"></script>
+      <script src="../dist/js/slick.min.js"></script>
+      <script src="../dist/js/swiper-bundle.min.js"></script>
+      <script src="../dist/js/custom.js"></script>
+   </body>
+</html>

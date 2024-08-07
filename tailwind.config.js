@@ -16,12 +16,13 @@ module.exports = {
         '3xl': '1760px',
         'max-2xl': '1760px',
       },
+      
     },
     fontSize: {
       sm: '1rem',
       base: '1.125rem',
       xl: '1.25rem',
-      // '2xl': '1.563rem',
+      '2xl': '1.4rem',
       '3xl': '1.5rem',//24px
       '4xl': '2rem', //32px
       '5xl': '2.5rem', //40px
@@ -42,6 +43,7 @@ module.exports = {
       },
       boxShadow: {
         'shadow-custom': '0 -25px 0px 0 #fafafa',
+        'button-shadow': 'inset -1.49px -14.14px 14px #10141C',
       },
       colors: {
         'custom-darkblue': 'rgb(40 51 71 / 60%)', 
@@ -70,6 +72,7 @@ module.exports = {
       'custom-gradient': 'linear-gradient(180deg, #364561 0%, #151B25 100%)',
       'homebanner-gradient':'linear-gradient(179deg, #28334700 0%, #283347 100%)',
       'video-gradient': 'linear-gradient(331deg, #283347 0%, #FFFFFF00 100%)',
+      'about-img':'linear-gradient(17deg, #283347 0%, #FFFFFF00 30%)',
     },
     backgroundPosition: {
       '11px-50': '11px 50%',
@@ -82,6 +85,7 @@ module.exports = {
     },
     inset: {
       'custom-left': 'calc(52.5% + 50px)',
+      'sm-custom-left': 'calc(42% + 50px)',
     },
   },
   plugins: [
