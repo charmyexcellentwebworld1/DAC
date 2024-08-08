@@ -68,11 +68,11 @@ module.exports = {
       'header-left-lg': "url('dist/assets/images/header-left-lg.png')",
       'footer-bg': "url('../dist/assets/images/DAC-footer-text.svg')",
       'qr-border': "url('../dist/assets/images/qr-border.svg')",
-      // 'active-bg': 'linear-gradient(180deg, #283347, #FFFFFF00) 1',
       'custom-gradient': 'linear-gradient(180deg, #364561 0%, #151B25 100%)',
       'homebanner-gradient':'linear-gradient(179deg, #28334700 0%, #283347 100%)',
       'video-gradient': 'linear-gradient(331deg, #283347 0%, #FFFFFF00 100%)',
       'about-img':'linear-gradient(17deg, #283347 0%, #FFFFFF00 30%)',
+      'slider-img': 'linear-gradient(18deg, #283347 0%, #FFFFFF00 20%)',
     },
     backgroundPosition: {
       '11px-50': '11px 50%',
