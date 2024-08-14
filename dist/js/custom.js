@@ -15,3 +15,17 @@ var swiper = new Swiper('.car-swiper', {
       prevEl: '.swiper-button-prev',
     },
   });
+//////////////////
+var swiper = new Swiper('.car-zoom-slider', {
+  loop: true,
+  slidesPerView: 1.2,
+  centerInsufficientSlides:true,
+  speed: 1000,
+  parallax: true,
+  grabCursor: true,
+  spaceBetween:-700,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
